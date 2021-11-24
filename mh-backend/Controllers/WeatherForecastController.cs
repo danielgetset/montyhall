@@ -80,24 +80,6 @@ namespace mh_backend.Controllers
             }
 
             return terms;
-
-            //return Enumerable.Range(1, simulations).Select(index => new WeatherForecast
-            //{
-            //    Date = DateTime.Now.AddDays(index),
-            //    TemperatureC = Random.Shared.Next(1, 3),
-            //    Summary = MyRandomArray[Random.Shared.Next(MyRandomArray.Length)]
-            //})
-            //.ToArray();
         }
-
-        //[HttpGet(Name = "Simulation")]
-        //public List<Simulation> Get(int simulations, Boolean doorSwitch)
-        //{
-        //    List<Simulation> SimulationList = new List<Simulation>();
-
-        //    SimulationList.Add(new Simulation(1, 1, true, true));
-
-        //    return SimulationList;
-        //}
     }
 }
